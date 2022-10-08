@@ -9,7 +9,7 @@ function flipCard() {
   //Dont let the click do anything when board is locked
   if (lockBoard) return;
 
-  //For double click on a single card
+  ///For double click on a single card
   if (this === firstCard) return;
 
   this.classList.toggle("flip");
